@@ -7,7 +7,6 @@ function convert() {
     let answer2 = document.getElementById("answer2");
     let answer3 = document.getElementById("answer3");
     let answer4 = document.getElementById("answer4");
-    let answer5 = document.getElementById("answer5");
 
     let mvalue,hmvalue,kmvalue,cmvalue,mmvalue;
 
@@ -79,6 +78,6 @@ function convert() {
 
     else{
 
-        window.alert("Invalid input");
-    }
+         window.alert("Invalid input");
+     }
 }
